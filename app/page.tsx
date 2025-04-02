@@ -1,19 +1,24 @@
 import { Link } from "@heroui/link";
+import { Button } from "@heroui/button";
 import Image from "next/image";
 
 
 const gridBackground = {
-  backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px)`,
+  backgroundImage: `linear-gradient(to right, rgba(0, 255, 183, 0.2) 0.3px, transparent 0.4px),
+    linear-gradient(to bottom, rgba(0, 255, 183, 0.2) 0.3px, transparent 0.4px)`,
   backgroundSize: '20px 20px',
-  backgroundPosition: '0 0'
+  backgroundPosition: '0 0',
+  transform: 'perspective(800px) rotateX(75deg)',
+  transformOrigin: 'center top',
+  opacity: 1
 };
 
 export default function Home() {
   return (
-    <div style={gridBackground} className="min-h-screen w-full flex flex-col items-center justify-center ">
-      <div className="flex flex-col w-[25vw] items-start justify-center">
-        <div className="mt-20 items-start mb-10">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center overflow-hidden">
+      <div style={gridBackground} className="absolute inset-0" />
+      <div className="flex flex-col w-[40vw] items-start justify-center relative z-10">
+        <div className="mt-10 items-start mb-10">
           <Image
             src="/555_logo_white.svg"
             alt="555 Logo"
@@ -24,16 +29,30 @@ export default function Home() {
         </div>
         <div className="mt-12 w-full">
           <div className="flex flex-row space-x-8">
-            <Link href="https://twitter.com/555mtl" underline="always" rel="noopener noreferrer" className="text-blue-500 hover:text-white transition-opacity">
-              twitter
+            <Link href="https://twitter.com/555mtl" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                className="text-white bg-white bg-opacity-20 border-green-500 hover:text-black"
+              >
+                twitter
+              </Button>
             </Link>
-            <Link href="https://lu.ma/555mtl" underline="always" rel="noopener noreferrer" className="text-blue-500 hover:text-white transition-opacity">
-              luma
+            <Link href="https://lu.ma/555mtl" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                className="text-white bg-white bg-opacity-20 border-green-500 hover:text-black"
+              >
+                luma
+              </Button>
             </Link>
-            <Link href="https://instagram.com/555_mtl" underline="always" rel="noopener noreferrer" className="text-blue-500 hover:text-white transition-opacity">
-              instagram
+            <Link href="https://instagram.com/555_mtl" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                className="text-white bg-white bg-opacity-20 border-green-500 hover:text-black"
+              >
+                instagram
+              </Button>
             </Link>
-
           </div>
           <div className="mt-12 w-full mb-12">
         <div className="mt-8 w-full">
