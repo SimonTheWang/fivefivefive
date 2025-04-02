@@ -1,53 +1,64 @@
-# Next.js & HeroUI Template
+# 555 MTL
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+We're a community, a hub, a space carved out for the dreamers, the makers, the visionaries of Montreal.
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+We believe in collaboration, in the power of shared vision. We're building a space where ideas collide, where inspiration flows freely, and where creation takes form.
 
-## Technologies Used
+Whether you're a painter, a musician, a writer, a designer, or anything in between, 555 is your home. We're here to inspire, to support, and to provide the space you need to bring your wildest ideas to life.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+Montreal's creative canvas.
 
-## How to Use
+## Connect With Us
 
-### Use the template with create-next-app
+- [Twitter](https://twitter.com/555mtl)
+- [Luma](https://lu.ma/555mtl)
+- [Instagram](https://instagram.com/555_mtl)
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## Tech Stack
 
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- @heroui components
+
+## Features
+
+- Responsive design
+- 3D grid background with perspective effect
+- Modern UI components
+- Social media integration
+- Clean, minimalist aesthetic
+
+## Getting Started
+
+1. Clone the repository:
 ```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+git clone https://github.com/yourusername/555mtl-website.git
+cd 555mtl-website
 ```
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-### Run the development server
-
+3. Run the development server:
 ```bash
 npm run dev
 ```
 
-### Setup pnpm (optional)
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
+## Project Structure
 
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
+- `/app` - Next.js app directory containing pages and components
+- `/public` - Static assets like images and fonts
+- `/components` - Reusable UI components
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+## Contributing
+
+We welcome contributions! Please feel free to submit a Pull Request.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+This project is licensed under the MIT License - see the LICENSE file for details.
