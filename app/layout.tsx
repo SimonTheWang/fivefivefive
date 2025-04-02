@@ -7,7 +7,7 @@ import { MuseoModerno } from 'next/font/google';
 
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
-import { Navbar } from "@/components/navbar";
+
 
 const museoModerno = MuseoModerno({
   weight: '400',

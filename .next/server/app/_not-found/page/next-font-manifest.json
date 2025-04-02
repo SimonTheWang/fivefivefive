@@ -1,13 +1,10 @@
 {
+  "pages": {},
   "app": {
-    "[project]/app/page": [
-      "static/media/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZEiesQjMCgGdva3g-s.p.4a3ecd1d.woff2"
-    ],
     "[project]/app/_not-found/page": [
       "static/media/zrf30HnU0_7wWdMrFcWqSEXPVyEaWJ55pTleMlZEiesQjMCgGdva3g-s.p.4a3ecd1d.woff2"
     ]
   },
   "appUsingSizeAdjust": true,
-  "pages": {},
   "pagesUsingSizeAdjust": false
 }
